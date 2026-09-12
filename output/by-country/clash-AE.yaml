@@ -8,7 +8,7 @@ proxies:
   type: vless
   server: 31.58.181.88
   port: 8443
-  uuid: 7dc78e93-9c9f-4a38-823b-13df709a1d16
+  uuid: ab3a17ae-4d4f-45ff-a05f-4d27b7f97838
   udp: true
   tls: true
   skip-cert-verify: true
