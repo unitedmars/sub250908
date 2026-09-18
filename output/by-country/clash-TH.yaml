@@ -5,18 +5,20 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇹🇭 TH 01 - xiaohe
-  type: vless
-  server: 104.18.189.234
-  port: 8880
-  uuid: 52fb52b1-82de-4c6f-b7d3-599ce5d57f1c
+  type: vmess
+  server: 118.193.57.167
+  port: 49667
+  uuid: d46bf492-45f4-4c33-82d1-ea2a1cb54eb6
+  alterId: 0
+  cipher: auto
   udp: true
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /
+    path: /d46bf492
     headers:
-      Host: damp-disk-1ae9.138-c4c.workers.dev
+      Host: ''
 proxy-groups:
 - name: PROXIES
   type: select
