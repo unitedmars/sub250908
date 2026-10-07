@@ -34,18 +34,18 @@ proxies:
       Host: ccc.010304.xyz
 - name: 🇨🇿 CZ 03 - xiaohe
   type: vless
-  server: 212.87.220.98
+  server: 162.159.152.4
   port: 443
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  uuid: f2a73750-3087-48ff-a763-1348c15dce68
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: fzo5i.ir46.90k.hh.ov0.kdns.fr
+  servername: rayan-007.maxima.dpdns.org
   network: ws
   ws-opts:
-    path: /glasspanel/guest000_0_5de14443985f/
+    path: /
     headers:
-      Host: fzo5i.ir46.90k.hh.ov0.kdns.fr
+      Host: rayan-007.maxima.dpdns.org
 proxy-groups:
 - name: PROXIES
   type: select

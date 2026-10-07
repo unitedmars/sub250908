@@ -19,13 +19,6 @@ proxies:
   password: WSyL4XTwNsdv
   udp: true
 - name: 🇪🇸 西班牙 (Spain) 03 - xiaohe
-  type: ss
-  server: 108.181.121.226
-  port: 8388
-  cipher: chacha20-ietf-poly1305
-  password: WSyL4XTwNsdv
-  udp: true
-- name: 🇪🇸 西班牙 (Spain) 04 - xiaohe
   type: vless
   server: es4.h1cloud.net
   port: 25047
@@ -37,32 +30,6 @@ proxies:
     public-key: opG0oNW-PMHi8V4E0101eEqOqPlZVKCuRkF6dcWeqBU
   servername: www.apple.com
   client-fingerprint: chrome
-- name: 🇪🇸 西班牙 (Spain) 05 - xiaohe
-  type: vless
-  server: 172.64.229.2
-  port: 8880
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇪🇸 西班牙 (Spain) 06 - xiaohe
-  type: vless
-  server: 172.64.229.2
-  port: 80
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
 proxy-groups:
 - name: PROXIES
   type: select
@@ -71,9 +38,6 @@ proxy-groups:
   - 🇪🇸 西班牙 (Spain) 01 - xiaohe
   - 🇪🇸 西班牙 (Spain) 02 - xiaohe
   - 🇪🇸 西班牙 (Spain) 03 - xiaohe
-  - 🇪🇸 西班牙 (Spain) 04 - xiaohe
-  - 🇪🇸 西班牙 (Spain) 05 - xiaohe
-  - 🇪🇸 西班牙 (Spain) 06 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -82,8 +46,5 @@ proxy-groups:
   - 🇪🇸 西班牙 (Spain) 01 - xiaohe
   - 🇪🇸 西班牙 (Spain) 02 - xiaohe
   - 🇪🇸 西班牙 (Spain) 03 - xiaohe
-  - 🇪🇸 西班牙 (Spain) 04 - xiaohe
-  - 🇪🇸 西班牙 (Spain) 05 - xiaohe
-  - 🇪🇸 西班牙 (Spain) 06 - xiaohe
 rules:
 - MATCH,PROXIES
